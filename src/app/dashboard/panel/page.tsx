@@ -7,6 +7,20 @@ export default function Panel() {
             <header className={styles.header}>
                 <h1>Prueba Técnica</h1>
                 <p>Este proyecto fue desarrollado con el propósito de demostrar habilidades en desarrollo full stack para la empresa Signa. Consiste en un aplicativo para la gestión de marcas, que permite realizar operaciones como crear, leer, editar y eliminar marcas. Cabe mencionar que el proyecto no incluye persistencia de datos, por lo que la información registrada podría perderse al cerrar la aplicación. Para el almacenamiento temporal, se utiliza un arreglo en memoria, lo que permite visualizar y gestionar los cambios realizados durante la sesión de uso.</p>
+                <a
+                    className={styles.primary}
+                    href="/brand"
+                    rel="noopener noreferrer"
+                >
+                    <Image
+                    className={styles.logo}
+                    src="/vercel.svg"
+                    alt="Vercel logomark"
+                    width={20}
+                    height={20}
+                    />
+                    <h4 className={styles.link}>Para testear Marcas da click AQUI</h4>
+                </a>
             </header>
 
             <main className={styles.main}>
@@ -15,7 +29,7 @@ export default function Panel() {
                     <ul className={styles.linksList}>
                         <li>
                             <a
-                                href="https://github.com/tu-usuario/repo"
+                                href="https://github.com/andyBlack13/signa-frontend.git"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.link}
@@ -26,7 +40,24 @@ export default function Panel() {
                                     width={24}
                                     height={24}
                                 />
-                                Repositorio en GitHub
+                                Repositorio en GitHub - Frontend
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://github.com/andyBlack13/signa-backend.git"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className={styles.link}
+                            >
+                                
+                                <Image
+                                    src="/logos/github.png"
+                                    alt="GitHub"
+                                    width={24}
+                                    height={24}
+                                />
+                                Repositorio en GitHub - Backend
                             </a>
                         </li>
                         <li>
@@ -47,7 +78,7 @@ export default function Panel() {
                         </li>
                         <li>
                             <a
-                                href="https://youtu.be/tu-video"
+                                href="https://www.loom.com/share/d61231c7e7fe4122b65c37a93c249f56?sid=d5b6a914-a282-4adf-b847-590bf0dfb206"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={styles.link}
