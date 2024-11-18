@@ -9,7 +9,7 @@ type BrandFormProps = {
 
 const BrandForm: React.FC<BrandFormProps> = ({ onSubmit, initialData }) => {
     const [step, setStep] = useState(1);
-    const [id, setId] = useState(initialData?.id || 0);
+    const [id, setId] = useState(initialData?.id || 11);
     const [brand, setBrand] = useState(initialData?.brand || '');
     const [owner, setOwner] = useState(initialData?.owner || '');
     const [status, setStatus] = useState(initialData?.status || 'active');
