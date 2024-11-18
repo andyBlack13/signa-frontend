@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import LateralMenu from "@/components/lateral-menu";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +27,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <div style={{ display: "flex" }}>
+          {/* Menú lateral */}
+          <LateralMenu />
+
+          {/* Contenido principal */}
+          <div style={{ marginLeft: "30%", width: "70%", padding: "20px", background: "#f0f0f0", color: "black" }}>
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   );

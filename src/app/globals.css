@@ -5,7 +5,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    /*--background: #0a0a0a;*/
+    --background: #f0f0f0;
     --foreground: #ededed;
   }
 }
@@ -39,4 +40,18 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+.button-create {
+  border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3358ff;
+    padding: 10px;
+    text-align: center;
+    justify-self: end;
+    color: #f0f0f0;
+}
+
+.title {
+  margin: 1em;
 }

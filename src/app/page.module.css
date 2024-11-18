@@ -166,3 +166,9 @@ a.secondary {
     filter: invert();
   }
 }
+
+.divForm {
+  /*display: inline-flex;*/
+  text-align: center;
+  margin: 2em;
+}

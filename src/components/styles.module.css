@@ -1,0 +1,314 @@
+.menuContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #1f1f1f;
+    padding-top: 20px;
+    z-index: 1000;
+    color:#797979;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /*padding-left: 20px;*/
+}
+.menuList {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menuItem {
+    margin-bottom: 15px;
+}
+
+.titleMenu {
+    margin-left: 1em;
+    font-size: larger;
+    font-weight: 300;
+    color: #828282;
+}
+
+.divItem {
+    height: 50px;
+    width: 100%;
+    /*border-bottom: 1px solid grey;*/
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+
+.gradientDivisor {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(31 31 31) 5%, rgba(196, 196, 196, 1) 49%, rgb(31 31 31) 95%);
+}
+
+.menuLink {
+    margin: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table tr:hover {
+    background-color: #ddd;
+}
+
+.table button {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.table button:hover {
+    background-color: #45a049;
+}
+
+.table .buttonDelete {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #af4c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.table .buttonDelete:hover {
+    background-color: #af4c4c;
+}
+
+.table .buttonDetail {
+    padding: 8px 12px;
+    margin: 5px;
+    background-color: #848484;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.table .buttonDetail:hover {
+    background-color: #848484;
+}
+
+.thead {
+    background-color: #4CAF50;
+}
+
+.thead th {
+    font-weight: bold;
+}
+
+.button {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.h3 {
+    margin-bottom: 15px;
+}
+
+.form {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input[type="text"] {
+    background: white;
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+}
+
+.input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.select {
+    background: white;
+    padding: 8px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 40px;
+    color: black;
+}
+
+.select:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+.div {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*StepsLine*/
+.containerSteps {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.inputsLeft {
+    text-align: left;
+}
+
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    margin: 10px;
+}
+
+.circleActive {
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    display: grid;
+    margin: 10px;
+    background: #ccccff;
+}
+
+.line {
+    width: 3em;
+    background: black;
+    height: 3px;
+    align-self: center;
+}
+
+.buttonSave {
+    height: 3em;
+    width: 8em;
+    background: #4CAF50;
+    border-radius: 25px;
+    font-size: 12pt;
+    box-shadow: 0px 6px 7px #acacac;
+    border: none;
+    margin: 1.5em;
+}
+
+.buttonCancel {
+    height: 3em;
+    width: 8em;
+    background: #848484;
+    border-radius: 25px;
+    font-size: 12pt;
+    box-shadow: 0px 6px 7px #acacac;
+    border: none;
+    margin: 1.5em;
+}
+
+.buttonCancel:hover {
+    background-color: #848484;
+}
+
+/*.inputForm {
+    background: white;
+    border: 1px solid #adadad;
+    border-radius: 10px;
+    height: 30px;
+    width: auto;
+}*/
+
+/*MODAL*/
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.closeButton {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.containerModalForm {
+    display: grid;
+    justify-content: center;
+}
+
+.gridJustify {
+    display: grid;
+    text-align: justify;
+}
+
+

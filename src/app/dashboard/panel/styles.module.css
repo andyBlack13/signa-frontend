@@ -1,0 +1,75 @@
+.container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+.header p {
+    color: #555;
+    font-size: 13pt;
+    text-align: justify;
+    margin-top: 1em;
+}
+
+.main {
+    margin: 20px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #666666;
+    padding-bottom: 5px;
+}
+
+.linksList, .techList {
+    list-style: none;
+    padding: 0;
+}
+
+.linksList li, .techList li {
+    margin: 10px 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #0070f3;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: #0056b3;
+}
+
+.link img {
+    margin-right: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
