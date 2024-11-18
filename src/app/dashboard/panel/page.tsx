@@ -21,6 +21,8 @@ export default function Panel() {
                     />
                     <h4 className={styles.link}>Para testear Marcas da click AQUI</h4>
                 </a>
+                <br />
+                <h2 style={{color: "red", fontSize: "12pt", fontStyle: "italic"}}>¡IMPORTANTE! Al no consumir la API durante mas de 15 min, Render apaga el servicio para ahorrar recursos, lo que pueda llevar a un retraso con el cargue de la información inicial, le pido un poco de paciencia mientras se carga correctamente la información, esto puede durar aproximadamente 50 seg. Despues de esto cualquier llamada de la API será eficiente y no habran problemas. Gracias.</h2>
             </header>
 
             <main className={styles.main}>
